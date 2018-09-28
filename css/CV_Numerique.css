@@ -3,12 +3,14 @@
     src: url('../font/LCALLIG.TTF');
 }
 
-body {
-	/*background-image: url("caillColor.png");
-	background-size: 100%;*/
+.Fond {
+	background-image: url("../img/caillColor.png");
+	background-size: 100%;
 	background-color: #333;
 	color: #FFF;
 }
+
+
 
 .Titre {
 	text-align: center;
@@ -20,7 +22,21 @@ body {
 	text-align: center;
 }
 
-button {
+.Bouton:hover {
+	color: #333;
+	background-color: #080;
+}
+
+.Transparent {
+	opacity: 0;
+}
+
+.Transparent-1 {
+	opacity: 1;
+}
+
+.Bouton {
+	color: #080;
 	background-color: #333;
 	text-align: center;
 	text-decoration: none;
@@ -29,15 +45,6 @@ button {
 	margin-bottom: 2px;
 	margin-right: 5px;
 	border-radius: 10px;
-}
-
-button:hover {
-	color: #333;
-	background-color: #080;
-}
-
-.Bouton {
-	color: #080;
 }
 
 span.Bouton:hover {
@@ -49,7 +56,7 @@ span.Bouton:hover {
 	font-family: 'LucidaC';
 }
 
-p, li {
+.Ombre {
 	text-shadow: 2px 2px 0px black;
 }
 
@@ -99,7 +106,7 @@ a[href="mailto:Boucher.Pierre@hotmail.fr"] {
 }
 
 .PoliceBarre {
-	color: #808;
+	color: #000;
 	font-size: 1.5em;
 	font-weight: bold;
 	font-family: 'Courier New';
