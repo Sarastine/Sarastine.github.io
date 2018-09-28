@@ -4,54 +4,56 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="css/CV_Numerique.css">
-	<script type="text/javascript" src="CV_Numerique.js"></script>
+	<script type="text/javascript" src="js/CV_Numerique.js"></script>
 	<title>CV BOUCHER Pierre</title>
 </head>
 <body>
 	<div>
-		<h1>BOUCHER Pierre</h1>
-		<h1>Développeur logiciel junior</h1>
+		<div class="Titre">BOUCHER Pierre</div>
+		<div class="Titre">Développeur logiciel junior</div>
 	</div>
 	<div class="container-fluid">
-		<button class="col-xs-12 col-md-5 col-lg-2" onclick="Bouton('Presentation')"><span class="Bouton">Présentation</span></button>
-		<button class="col-xs-12 col-md-5 col-lg-2" onclick="BoutonFlex('Competences')"><span class="Bouton">Compétences</span></button>
-		<button class="col-xs-12 col-md-5 col-lg-2" onclick="Bouton('Formation')"><span class="Bouton">Formation</span></button>
-		<button class="col-xs-12 col-md-5 col-lg-3" onclick="Bouton('ExpPro')"><span class="Bouton">Expériences Professionnelles</span></button>
-		<button class="col-xs-12 col-md-5 col-lg-2" onclick="Bouton('Contact')"><span class="Bouton">Contact</span></button>
+		<div class="row">
+		<button class="col-xs-12 col-sm col-md col-xl" onclick="Bouton('Presentation')"><span class="Bouton">Présentation</span></button>		
+		<button class="col-xs-12 col-sm col-md col-xl" onclick="Bouton('Formation')"><span class="Bouton">Formation</span></button>
+		<button class="col-xs-12 col-sm-4 col-md-4 col-xl-4" onclick="Bouton('Competences')"><span class="Bouton">Compétences</span></button>
+		<button class="col-xs-12 col-sm col-md col-xl" onclick="Bouton('ExpPro')"><span class="Bouton">Expériences Professionnelles</span></button>
+		<button class="col-xs-12 col-sm col-md col-xl" onclick="Bouton('Contact')"><span class="Bouton">Contact</span></button>
+		</div>		
 	</div>
 	<div id="Presentation">
 		<p class="calligraphy">Diagnostiqué autiste Asperger en 2014, j'ai suivi le dispositif Pass P'As (Passeport Professionnel Asperger) sur l'année 2017-2018. Grâce à cela, j'ai pu me réorienter vers le milieu du développement web, et suis actuellement une formation à La Manu : L'École des métiers du Numérique afin de me mettre à niveau.</p>
 	</div>
 	<div id="Competences" class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-md-5 col-xl-2 col-lg-2">
-				<div class="progress" style="height: 30px;">
-				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">HTML 75%</div>
+			<div class="col-xs-12 offset-md-1 col-md-5 offset-xl-0 col-xl-2">
+				<div class="progress TailleBarre">
+				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><span class="PoliceBarre">HTML 75%</span></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-5 col-xl-2 col-lg-2">
-				<div class="progress" style="height: 30px;">
-				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">CSS 75%</div>
+			<div class="col-xs-12 col-md-5 col-xl-2">
+				<div class="progress TailleBarre">
+				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><span class="PoliceBarre">CSS 75%</span></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-5 col-xl-2 col-lg-2">
-				<div class="progress" style="height: 30px;">
-				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JS 25%</div>
+			<div class="col-xs-12 offset-md-1 col-md-5 offset-xl-0 col-xl-2">
+				<div class="progress TailleBarre">
+				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="PoliceBarre">JS 25%</span></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-5 col-xl-2 col-lg-2">
-				<div class="progress" style="height: 30px;">
-				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">PHP 25%</div>
+			<div class="col-xs-12 col-md-5 col-xl-2">
+				<div class="progress TailleBarre">
+				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span class="PoliceBarre">PHP 25%</span></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-5 col-xl-2 col-lg-2">
-				<div class="progress" style="height: 30px;">
-				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Terminal 75%</div>
+			<div class="col-xs-12 offset-md-1 col-md-5 offset-xl-0 col-xl-2">
+				<div class="progress TailleBarre">
+				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><span class="PoliceBarre">Terminal 75%</span></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-5 col-xl-2 col-lg-2">
-				<div class="progress" style="height: 30px;">
-				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Github 75%</div>
+			<div class="col-xs-12 col-md-5 col-xl-2">
+				<div class="progress TailleBarre">
+				 	<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><span class="PoliceBarre">Github 75%</span></div>
 				</div>
 			</div>
 		</div>
