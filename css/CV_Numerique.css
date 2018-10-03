@@ -2,39 +2,22 @@
     font-family: 'LucidaC';
     src: url('../font/LCALLIG.TTF');
 }
-
 .Fond {
-	background-image: url("../img/caillColor.png");
-	background-size: 100%;
-	background-color: #333;
+	background-color: #343A40;
 	color: #FFF;
 }
-
-
-
 .Titre {
 	text-align: center;
 	font-family: 'Courier New';
 	font-size: 2em;
 }
-
 .Centrer {
 	text-align: center;
 }
-
 .Bouton:hover {
-	color: #333;
+	color: #333 !important;
 	background-color: #080;
 }
-
-.Transparent {
-	opacity: 0;
-}
-
-.Transparent-1 {
-	opacity: 1;
-}
-
 .Bouton {
 	color: #080;
 	background-color: #333;
@@ -46,76 +29,39 @@
 	margin-right: 5px;
 	border-radius: 10px;
 }
-
 span.Bouton:hover {
 	color: #333;
 	background-color: #080;
 }
-
 .calligraphy {
 	font-family: 'LucidaC';
 }
-
 .Ombre {
 	text-shadow: 2px 2px 0px black;
 }
-
 a[href="mailto:Boucher.Pierre@hotmail.fr"] {
 	color: green;
 	font-family: none;
 }
-
 .Flotte {
 	float: left;
 }
-
-#Presentation {
+.Disparition {
 	width: 100%;
 	display: none;
 }
-
-/*#Competences {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	width: 100%;
-}*/
-
-#Formation {
-	width: 100%;
-	display: none;
-}
-
-#ExpPro {
-	width: 100%;
-	display: none;
-}
-
-#Contact {
-	width: 100%;
-	display: none;
-}
-
 .progress {
 	margin-bottom: 2px;
 }
-
 .TailleBarre {
 	height: 40px;
 }
-
 .PoliceBarre {
 	color: #000;
 	font-size: 1.5em;
 	font-weight: bold;
 	font-family: 'Courier New';
 }
-/*
-.container {
-	border: 5px solid red;
+.Test {
+	border: 2px solid red;
 }
-.row {
-	border: 5px solid blue;
-}
-*/
