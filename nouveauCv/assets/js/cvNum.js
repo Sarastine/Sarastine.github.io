@@ -1,8 +1,8 @@
 function displayShow(div) {
-    Presentation.style.display = "none";
-    Competences.style.display = "none";
-    Formation.style.display = "none";
-    Experiences.style.display = "none";
-    Contact.style.display = "none";
+    document.getElementById('Presentation').style.display = "none";
+    document.getElementById('Competences').style.display = "none";
+    document.getElementById('Formation').style.display = "none";
+    document.getElementById('Experiences').style.display = "none";
+    document.getElementById('Contact').style.display = "none";
     document.getElementById(div).style.display = "block";
 }
