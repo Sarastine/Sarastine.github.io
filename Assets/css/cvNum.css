@@ -1,0 +1,78 @@
+@media only screen and (max-width: 600px) {
+	#Bouton {
+		display: none;
+	}
+	#NavBarBootstrap {
+		display: block;
+	}
+}
+body {
+	background-color: #333;
+	color: #0D0;
+	text-shadow: 1px 1px #000;
+}
+.navbar {
+	background-color: #222;
+	color: #0D0;
+}
+.nav-link {
+	color: #0C0 !important;
+}
+.nav-link:hover {
+	color: #0F0 !important;
+}
+@font-face {
+    font-family: 'LucidaC';
+    src: url('../font/LCALLIG.TTF');
+}
+.calligraphy {
+	font-family: 'LucidaC';
+	color: #0F0;
+}
+h1, h2 {
+	font-family: 'courier new';
+	text-align: center;
+}
+.progressBarFont {
+	font-size: 20px;
+	font-family: 'courier new';
+}
+.progress {
+	margin-bottom: 3px;
+}
+.progress-bar {
+	margin-left:-15px;
+}
+.displayNone {
+	display: none;
+}
+.btn-success {
+	margin-bottom: 10px;
+	margin-right: 5px;
+	font-weight: bold;
+	font-family: 'Times New Roman';
+	font-size: 20px;
+}
+a[href="mailto:Boucher.Pierre@hotmail.fr"]{
+	color: #0D0;
+	text-decoration: underline;
+}
+a[href="mailto:Boucher.Pierre@hotmail.fr"]:hover{
+	color: #0F0;
+	text-decoration: underline;
+}
+div[id="Contact"] p {
+	text-align: center;
+}
+.lineBreak50 {
+	margin-top: 50px;
+}
+.lineBreak25 {
+	margin-top: 25px;
+}
+
+
+
+.Tests {
+	border: 2px solid red;
+}
