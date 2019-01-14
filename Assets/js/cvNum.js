@@ -1,8 +1,8 @@
 function displayShow(div) {
-    document.getElementById('Presentation').style.display = "none";
-    document.getElementById('Competences').style.display = "none";
-    document.getElementById('Formation').style.display = "none";
-    document.getElementById('Experiences').style.display = "none";
-    document.getElementById('Contact').style.display = "none";
+    document.getElementById('caillouPresentation').style.display = "none";
+    document.getElementById('caillouCompetences').style.display = "none";
+    document.getElementById('caillouFormation').style.display = "none";
+    document.getElementById('caillouExperiences').style.display = "none";
+    document.getElementById('caillouContact').style.display = "none";
     document.getElementById(div).style.display = "block";
 }
