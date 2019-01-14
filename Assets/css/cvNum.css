@@ -40,9 +40,6 @@ h1, h2 {
 .progress {
 	margin-bottom: 3px;
 }
-.progress-bar {
-	margin-left:-15px;
-}
 .displayNone {
 	display: none;
 }
@@ -70,9 +67,33 @@ div[id="Contact"] p {
 .lineBreak25 {
 	margin-top: 25px;
 }
+.htmlColor {
+	background-color: #E58C21 !important;
+}
+.cssColor {
+	background-color: #E6C918 !important;
+}
+.terminalColor {
+	background-color: #300A24 !important;
+}
+.gitColor {
+	background-color: #000A24 !important;
+}
+.jqueryColor {
+	background-color: #339804 !important;
+}
+.javascriptColor {
+	background-color: #63A814 !important;
+}
+.csharpColor {
+	background-color: #9B4F97 !important;
+}
+.phpColor {
+	background-color: #545893 !important;
+}
 
 
-
-.Tests {
+.TEST {
 	border: 2px solid red;
+	display: block;
 }

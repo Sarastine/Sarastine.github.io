@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="Assets/bootstrap/css/bootstrap.css">
@@ -7,7 +7,7 @@
 	<title>CV Boucher Pierre</title>
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container-liquid">
 		<nav id="NavBarBootstrap" class="navbar navbar-expand-lg navbar-dark sticky-top d-block d-md-none">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -15,7 +15,7 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#Presentation" onclick="displayShow('Presentation')">Présentation<span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="#Presentation" onclick="displayShow('Presentation')">Présentation</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#Formation" onclick="displayShow('Formation')">Formation</a>
@@ -32,57 +32,96 @@
 			</ul>
 			</div>
 		</nav>
-		<div id="Titre">
-			<h1>BOUCHER Pierre</h1>
-			<h2>Développeur logiciel junior</h2>
-		</div>
-		<div id="Boutons" class="d-none d-md-block">
-			<!--Boutons à partir de md-->
-			<div class="row">
-				<button type="button" class="btn btn-success col" onclick="displayShow('Presentation')">Présentation</button>
-				<button type="button" class="btn btn-success col" onclick="displayShow('Formation')">Formation</button>
-				<button type="button" class="btn btn-success col" onclick="displayShow('Competences')">Compétences</button>
-				<button type="button" class="btn btn-success col" onclick="displayShow('Experiences')">Expériences</button>
-				<button type="button" class="btn btn-success col" onclick="displayShow('Contact')">Contact</button>
+		<div class="container">
+			<div id="Titre">
+				<h1>BOUCHER Pierre</h1>
+				<h2>Développeur logiciel junior</h2>
 			</div>
 		</div>
-		<div id="Presentation" class="displayNone lineBreak25">
-			<p class="calligraphy">Diagnostiqué autiste Asperger en 2014, j'ai suivi le dispositif Pass P'As (Passeport Professionnel Asperger) sur l'année 2017-2018. Grâce à cela, j'ai pu me réorienter vers le milieu du développement web, et suis actuellement une formation à La Manu : L'École des métiers du Numérique afin de me mettre à niveau.</p>
+		<div class="container">
+			<div id="Boutons" class="d-none d-md-block">
+				<!--Boutons à partir de md-->
+				<div class="row">
+					<button type="button" class="btn btn-success col" onclick="displayShow('Presentation')">Présentation</button>
+					<button type="button" class="btn btn-success col" onclick="displayShow('Formation')">Formation</button>
+					<button type="button" class="btn btn-success col" onclick="displayShow('Competences')">Compétences</button>
+					<button type="button" class="btn btn-success col" onclick="displayShow('Experiences')">Expériences</button>
+					<button type="button" class="btn btn-success col" onclick="displayShow('Contact')">Contact</button>
+				</div>
+			</div>
 		</div>
-		<div id="Formation" class="displayNone lineBreak25">
+		<div id="Presentation" class="displayNone lineBreak25 container-fluid">
+			<p class="calligraphy">Diagnostiqué autiste Asperger en 2014, j'ai suivi le dispositif Pass P'As (Passeport Professionnel Asperger) sur l'année 2017-2018. Grâce à cela, j'ai pu me réorienter vers le milieu du développement web et je suis actuellement une formation à La Manu : L'École des métiers du Numérique afin de me mettre à niveau.</p>
+		</div>
+		<div id="Formation" class="displayNone lineBreak25 container-fluid">
 			<ul>
+				<li>Actuellement : Concepteur-Développeur .NET à La Manu - L'École des métiers du numérique, Soissons</li>
+				<li>Fin 2018 : Module Front à La Manu - L'École des métiers du numérique, Soissons</li>
 				<li>2017-2018 : Dispositif Pass P'As (Passeport Professionnel Asperger) au CLRP de Lille</li>
 				<li>2010-2011 : Licence Professionnelle ART (Automatismes, Réseaux et Télémaintenance) à l'IUT de l'Aisne, département GEII, Cuffies</li>
 				<li>2008-2010 : BTS MAI (Mécanique et Automatismes Industriels) au lycée Léonard de Vinci, Soissons</li>
 				<li>2005-2008 : BAC STI GMA (Sciences et Techniques de l'Ingénieur, Génie Mécanique option Productique) au lycée Léonard de Vinci, Soissons</li>
 			</ul>
 		</div>
-		<div id="Competences" class="displayNone lineBreak25">
-			<div class="row">
-				<div class="progress col-12" style="height: 30px;">
-	  				<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="progressBarFont">html</span></div>
-				</div>
-				<div class="progress col-12" style="height: 30px;">
-	  				<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="progressBarFont">css</span></div>
-				</div>
-				<div class="progress col-12" style="height: 30px;">
-	  				<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="progressBarFont">terminal</span></div>
-				</div>
-				<div class="progress col-12" style="height: 30px;">
-	  				<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="65%" aria-valuemin="0" aria-valuemax="100" style="width: 65%"><span class="progressBarFont">github</span></div>
-				</div>
-				<div class="progress col-12" style="height: 30px;">
-	  				<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="60%" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="progressBarFont">git</span></div>
-				</div>
-				<div class="progress col-12" style="height: 30px;">
-	  				<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="60%" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="progressBarFont">javascript</span></div>
-				</div>
-				<div class="progress col-12" style="height: 30px;">
-	  				<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="15%" aria-valuemin="0" aria-valuemax="100" style="width: 15%"><span class="progressBarFont">php</span></div>
+		<div class="container-fluid">
+			<div id="Competences" class="displayNone lineBreak25">
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<div class="progress justify-content-end d-none d-md-flex" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success htmlColor progress-bar-animated" role="progressbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="progressBarFont">html</span></div>
+						</div>
+						<div class="progress d-block d-md-none" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success htmlColor progress-bar-animated" role="progressbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="progressBarFont">html</span></div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="progress" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success cssColor progress-bar-animated" role="progressbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="progressBarFont">css</span></div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="progress justify-content-end d-none d-md-flex" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success terminalColor progress-bar-animated" role="progressbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="progressBarFont">terminal</span></div>
+						</div>
+						<div class="progress d-block d-md-none" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success terminalColor progress-bar-animated" role="progressbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="progressBarFont">terminal</span></div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="progress" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success gitColor progress-bar-animated" role="progressbar" aria-valuenow="65%" aria-valuemin="0" aria-valuemax="100" style="width: 65%"><span class="progressBarFont">git - github</span></div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="progress justify-content-end d-none d-md-flex" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success jqueryColor progress-bar-animated" role="progressbar" aria-valuenow="60%" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="progressBarFont">jquery</span></div>
+						</div>
+						<div class="progress d-block d-md-none" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success jqueryColor progress-bar-animated" role="progressbar" aria-valuenow="60%" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="progressBarFont">jquery</span></div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="progress" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success javascriptColor progress-bar-animated" role="progressbar" aria-valuenow="60%" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="progressBarFont">javascript</span></div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="progress justify-content-end d-none d-md-flex" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success csharpColor progress-bar-animated" role="progressbar" aria-valuenow="60%" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="progressBarFont">C#</span></div>
+						</div>
+						<div class="progress d-block d-md-none" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success csharpColor progress-bar-animated" role="progressbar" aria-valuenow="60%" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="progressBarFont">C#</span></div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<div class="progress" style="height: 30px;">
+			  				<div class="progress-bar progress-bar-striped bg-success phpColor progress-bar-animated" role="progressbar" aria-valuenow="15%" aria-valuemin="0" aria-valuemax="100" style="width: 15%"><span class="progressBarFont">php</span></div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div id="Experiences" class="displayNone lineBreak25">
+		<div id="Experiences" class="displayNone lineBreak25 container-fluid">
 			<ul>
 				<li>Novembre 2012-Aujourd'hui : Secrétariat pour cabinet d'infirmière libérale (missions de télétransmissions et assistance informatique)</li>
 				<li>Mars 2018-Septembre 2018 : Cybercentre, assistance, dépannage et conseil en informatique en alternance</li>
