@@ -1,7 +1,7 @@
 body {
-	background-color: #333;
-	color: #0D0;
-	text-shadow: 1px 1px #000;
+background-color: #333;
+color: #0D0;
+text-shadow: 1px 1px #000;
 }
 .navbar {
 	background-color: #222;
@@ -79,9 +79,4 @@ a[href="mailto:Boucher.Pierre@hotmail.fr"]:hover{
 }
 .phpColor {
 	background-color: #545893 !important;
-}
-
-
-.TEST {
-	border: 2px solid red;
 }
