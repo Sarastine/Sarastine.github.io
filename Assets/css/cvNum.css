@@ -1,53 +1,80 @@
+@font-face {
+    font-family: 'adobeArabic';
+    src: url('../font/AdobeArabic-Regular.otf');
+}
+html, body {
+	height: 100%;
+}
 body {
-background-color: #333;
-color: #0D0;
-text-shadow: 1px 1px #000;
+	background-color: #171328;
+	color: #adf17a;
+	font-family: 'adobeArabic';
+	font-size: 1.5em;
+	text-align: justify;
+}
+.globalDiv {
+	background-color: #0f0b24;
+	min-height: 100%;
 }
 .navbar {
-	background-color: #222;
-	color: #0D0;
+	background-color: #171328;
+	color: #adf17a;
 }
 .nav-link {
-	color: #0C0 !important;
+	color: #adf17a !important;
 }
 .nav-link:hover {
-	color: #0F0 !important;
+	color: #adf17a !important;
 }
-@font-face {
-    font-family: 'LucidaC';
-    src: url('../font/LCALLIG.TTF');
-}
-.calligraphy {
-	font-family: 'LucidaC';
-	color: #0F0;
-}
-h1, h2 {
-	font-family: 'courier new';
+h1 {
+	font-size: 3em;
+	font-weight: bold;
 	text-align: center;
+	line-height: 0.8em;
+}
+.undertitel {
+	font-size: .5em;
+	font-weight: normal;
+}
+.caillouList {
+	padding-left: 0px; 
 }
 .progressBarFont {
-	font-size: 1.8em;
 	font-family: 'courier new';
+	font-size: 1.8rem;
+	vertical-align: middle;
 }
 .progress {
 	margin-bottom: 3px;
+}
+.progress-bar {
+	height: 100%;
 }
 .displayNone {
 	display: none;
 }
 .btn-success {
 	margin-bottom: 10px;
-	margin-right: 5px;
+	margin-right: 2px;
+	margin-left: 2px;
 	font-weight: bold;
-	font-family: 'Times New Roman';
-	font-size: 1.2em;
+	font-size: 1.8rem;
+	background-color: #51893e;
+	color: #0f0b24;
+}
+.btn-success:hover {
+	background-color: #adf17a;
+	color: #0f0b24;
+}
+.btn-success:focus {
+	background-color: #adf17a;
 }
 a[href="mailto:Boucher.Pierre@hotmail.fr"]{
-	color: #0D0;
+	color: #adf17a;
 	text-decoration: underline;
 }
 a[href="mailto:Boucher.Pierre@hotmail.fr"]:hover{
-	color: #0F0;
+	color: #51893e;
 	text-decoration: underline;
 }
 .lineBreak50 {
@@ -80,12 +107,23 @@ a[href="mailto:Boucher.Pierre@hotmail.fr"]:hover{
 .phpColor {
 	background-color: #545893 !important;
 }
-h3 {
-	text-align: center;
-	font-size: 1.8em;
-	color: #0F0;
-	margin-top: -20px;
-	font-family: 'Times New Roman';
-	text-decoration: underline;
-	margin-bottom: 50px;
+@media (min-width: 992px) {
+	.lineBreak25 {
+		padding-left: 250px;
+		padding-right: 250px;
+	}
+	#caillouCompetences {
+		padding-left: 0px;
+		padding-right: 0px;
+		border: solid 5px #0F0;
+	}
+	h1 {
+		font-size: 4.5em;
+		font-weight: normal;
+		line-height: .65em;
+	}
+}
+
+.TEST {
+	border:1px solid red;
 }
