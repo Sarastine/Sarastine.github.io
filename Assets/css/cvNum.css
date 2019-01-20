@@ -112,11 +112,6 @@ a[href="mailto:Boucher.Pierre@hotmail.fr"]:hover{
 		padding-left: 250px;
 		padding-right: 250px;
 	}
-	#caillouCompetences {
-		padding-left: 0px;
-		padding-right: 0px;
-		border: solid 5px #0F0;
-	}
 	h1 {
 		font-size: 4.5em;
 		font-weight: normal;
