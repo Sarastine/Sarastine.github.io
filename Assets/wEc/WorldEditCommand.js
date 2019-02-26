@@ -1,5 +1,5 @@
 $(function () {
-	$('.totalPercent').keyup(ratesTotalSum);
+	//Fonction Mise à jour du taux total
 	function ratesTotalSum() {
 		var ratesTotal = 0;
 		$('.totalPercent').each(function() {
@@ -14,7 +14,8 @@ $(function () {
 			$('#blendBlocksButton').removeClass('btn-success btn-danger').addClass('btn-warning');
 		}
 	}
-	$('#blendBlocksButton').click(function generateCommand() {
+	//Fonction Générer la commande
+	function generateCommand() {
 		var command = "";
 		if ($('#commandSet').prop('checked')) {
 			command = command + "//set ";
@@ -31,13 +32,27 @@ $(function () {
 			command = command + " " + $('#radius').val();
 		}
 		$('#blendBlocks').val(command);
+	}
+	//Fonction Copier la commande dans le presse papier
+	function copyToClipboard() {
+		var copyText = document.querySelector("#blendBlocks");
+		copyText.select();
+		document.execCommand("copy");
+	}
+
+	//Appel mise à jour du taux total
+	$('.totalPercent').keyup(ratesTotalSum);
+
+	//Bouton Générer la commande
+	$('#copyCommand').click(copyToClipboard);
+	//Bouton Copier la commande
+	$('#blendBlocksButton').click(function() {
+		generateCommand();
+		copyToClipboard();
 	});
-	$('#copyCommand').click(function() {
-	  var copyText = document.querySelector("#blendBlocks");
-	  copyText.select();
-	  document.execCommand("copy");
-	});
+	//Bouton reset
 	$('#reset').click(function() {
 		$('.totalPercent').val("");
+		ratesTotalSum();
 	});
 });
