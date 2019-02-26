@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Commande auto WorldEdit</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.2.1-dist/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="WorldEditCommand.css" />
+</head>
+<body>
+	<div class="container-fluid">
+		<h1 class="text-center">World Edit</h1>
+		<h2 class="text-center">Commandes à copier/coller</h2>
+		<p class="text-center">
+			<input id="commandSet" type="radio" name="whichCommand">
+			//set [mélangeDeBlocs] sur une sélection à la hache
+		</p>
+		<p class="text-center">
+			<input id="commandBr" type="radio" name="whichCommand">
+			/br [cyl|sphere] [MélangeDeBlocs] [rayon] sur un outil à paramétrer (entrez un rayon :
+			<input id="radius" type="number" name="radius" value="9" />
+			)
+		</p>
+
+		<div class="row">
+			<label class="col-2 text-right">Roche</label>
+			<div class="col-1">
+				<input id="roche" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="1">%
+			</div>
+			<label class="col-2 text-right">Andésite (gris)</label>
+			<div class="col-1">
+				<input id="andesite" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="1:5">%
+			</div>
+			<label class="col-2 text-right">Diorite (blanc)</label>
+			<div class="col-1">
+				<input id="diorite" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="1:3">%
+			</div>
+			<label class="col-2 text-right">Charbon</label>
+			<div class="col-1">
+				<input id="charbon" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="16">%
+			</div>
+			<label class="col-2 text-right">Bloc Charbon</label>
+			<div class="col-1">
+				<input id="blocCharbon" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="173">%
+			</div>
+			<label class="col-2 text-right">Granite</label>
+			<div class="col-1">
+				<input id="granite" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="1:1">%
+			</div>
+			<label class="col-2 text-right">Terre</label>
+			<div class="col-1">
+				<input id="terre" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="3">%
+			</div>
+			<label class="col-2 text-right">Pierre</label>
+			<div class="col-1">
+				<input id="pierre" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="4">%
+			</div>
+			<label class="col-2 text-right">Luminite</label>
+			<div class="col-1">
+				<input id="luminite" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="89">%
+			</div>
+			<label class="col-2 text-right">Fer</label>
+			<div class="col-1">
+				<input id="fer" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="15">%
+			</div>
+			<label class="col-2 text-right">Invisible</label>
+			<div class="col-1">
+				<input id="invisible" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="166">%
+			</div>
+			<label class="col-2 text-right">Bedrock</label>
+			<div class="col-1">
+				<input id="bedrock" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="7">%
+			</div>
+			<label class="col-2 text-right">Obsidienne</label>
+			<div class="col-1">
+				<input id="obsidienne" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="49">%
+			</div>
+			<label class="col-2 text-right">Diamant</label>
+			<div class="col-1">
+				<input id="diamant" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="56">%
+			</div>
+			<label class="col-2 text-right">Or</label>
+			<div class="col-1">
+				<input id="or" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="14">%
+			</div>
+			<label class="col-2 text-right">Vide</label>
+			<div class="col-1">
+				<input id="vide" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="0">%
+			</div>
+			<label class="col-2 text-right">Lapis Lazuli</label>
+			<div class="col-1">
+				<input id="lapisLazuli" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="21">%
+			</div>
+			<label class="col-2 text-right">Redstone</label>
+			<div class="col-1">
+				<input id="redstone" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="73">%
+			</div>
+			<label class="col-2 text-right">Eau</label>
+			<div class="col-1">
+				<input id="eau" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="8">%
+			</div>
+		</div>
+		<div class="row">
+			<div class="mx-auto ratesTotal">
+				<span id="totalPercent">0</span>%
+			</div>
+		</div>
+		<div class="text-center">
+			Mélange de blocs :<br />
+			<input id="blendBlocks" value="Choisissez vos taux" class="col-8 my-2 text-center" />
+		</div>
+		<div class="row">
+			<div id="blendBlocksButton" class="btn btn-success ml-auto">Générer</div>
+			<div id="reset" class="btn btn-light mx-3">Reset</div>
+			<div id="copyCommand" class="btn btn-info mr-auto">Copier la commande</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="WorldEditCommand.js"></script>
+</body>
+</html>
