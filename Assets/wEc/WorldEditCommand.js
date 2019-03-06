@@ -1,4 +1,5 @@
 $(function () {
+	var caillouRaceBool = false;
 	//Fonction Mise à jour du taux total
 	function ratesTotalSum() {
 		var ratesTotal = 0;
@@ -39,6 +40,11 @@ $(function () {
 		copyText.select();
 		document.execCommand("copy");
 	}
+	//Fonction Reset
+	function resetPercent() {
+		$('.totalPercent').val("");
+		ratesTotalSum();
+	}
 
 	//Appel mise à jour du taux total
 	$('.totalPercent').keyup(ratesTotalSum);
@@ -51,8 +57,17 @@ $(function () {
 		copyToClipboard();
 	});
 	//Bouton reset
-	$('#reset').click(function() {
-		$('.totalPercent').val("");
-		ratesTotalSum();
+	$('#reset').click(resetPercent);
+	//Bouton course de Caillou
+	$('#caillouRace').click(function() {
+		if (!caillouRaceBool) {
+			$('.caillouSorting').hide();
+			$('.caillouRace').show();
+			resetPercent();
+			caillouRaceBool = true;
+		} else {
+			$('.caillouSorting').show();
+			caillouRaceBool = false;
+		}
 	});
 });
