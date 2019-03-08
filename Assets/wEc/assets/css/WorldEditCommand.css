@@ -1,0 +1,58 @@
+body {
+	background-color: #333;
+	color: #CCC;
+}
+
+h1, h2 {
+	color: #0A0;
+}
+
+input {
+	max-width: 45px;
+}
+
+.col-2 {
+	max-width: 10%;
+}
+
+#radius {
+	max-width: 50px;
+}
+
+.ratesTotal {
+	font-size: 2em;
+}
+
+.caillouIcon {
+	background-color: #CCC;
+	border: 1px solid #000;
+	border-radius: 5px;
+	max-width: 2%;
+	box-shadow: 5px 5px 5px #000;
+	margin-top: -10px;
+}
+
+.caillouImg {
+	width: 35px;
+}
+
+.caillouLimit {
+	max-width: 95px;
+}
+
+.dymytryIcon {
+	width: 32px;
+	height: 32px;
+}
+
+.icoRoche {
+	background-image: url("../img/ico/icoRoche.gif");
+}
+.icoVerre {
+	background-image: url("../img/ico/icoVerre.gif");
+}
+.icoVerreBlanc {
+	background-image: url("../img/ico/icoVerreBlanc.gif");
+}
+
+/*caillouSorting : classe de tri*/

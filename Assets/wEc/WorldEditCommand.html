@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>Commande auto WorldEdit</title>
 	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="WorldEditCommand.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/WorldEditCommand.css" />
 </head>
 <body>
 	<div class="container-fluid">
@@ -23,2071 +23,2301 @@
 		<div id="caillouRace" class="btn btn-secondary">Course Caillou</div>
 
 		<div class="row">
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Air (Vide)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Air (Vide)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vide" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="0">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Roche</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Roche</label>
+					<div class="dymytryIcon items-28_02"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="roche" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Granite</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Granite</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="granite" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="1:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Granite Poli</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Granite Poli</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="granitePoli" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="1:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Diorite (blanc)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Diorite (blanc)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="diorite" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="1:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Diorite Polie</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Diorite Polie</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="dioritePolie" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="1:4">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Andésite (gris)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Andésite (gris)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="andesite" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="1:5">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Andésite</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Andésite</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="andesitePolie" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="1:6">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Herbe</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Herbe</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="herbe" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terre" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Stérile</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Stérile</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreSterile" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="3:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Podzol</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Podzol</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="podzol" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="3:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Pierre</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Pierre</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="pierre" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="4">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Planche de Chêne</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Planche de Chêne</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="plancheChene" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="5">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Planche de Sapin</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Planche de Sapin</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="plancheSapin" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="5:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Planche de Bouleau</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Planche de Bouleau</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="plancheBouleau" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="5:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Planche d'Acacia (Jungle)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Planche d'Acacia (Jungle)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="plancheAcacia" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="5:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Planche d'Acajou (Savane)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Planche d'Acajou (Savane)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="plancheAcajou" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="5:4">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Planche de Chêne Noir</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Planche de Chêne Noir</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="plancheCheneNoir" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="5:5">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bedrock</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bedrock</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="bedrock" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="7">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Eau</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Eau</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="eau" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="8">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Eau Statique</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Eau Statique</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="eauStatique" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="9">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Lave</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Lave</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="lave" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="10">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Lave Statique</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Lave Statique</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laveStatique" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="11">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Sable</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Sable</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="sable" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="12">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Sable Rouge</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Sable Rouge</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="sableRouge" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="12:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Gravier</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Gravier</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="gravier" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="13">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Or (Minerai)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Or (Minerai)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="or" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="14">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Fer (Minerai)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Fer (Minerai)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="fer" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="15">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Charbon</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Charbon</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="charbon" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="16">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bloc Charbon</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bloc Charbon</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="blocCharbon" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="173">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bois de Chêne</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bois de Chêne</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="boisChene" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="17">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bois de Sapin</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bois de Sapin</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="boisSapin" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="17:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bois de Bouleau</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bois de Bouleau</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="boisBouleau" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="17:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bois d'Acajou (Jungle)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bois d'Acajou (Jungle)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="boisAcajou" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="17:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Feuillage de Chêne</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Feuillage de Chêne</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="feuillageChene" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="18">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Feuillage de Sapin</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Feuillage de Sapin</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="feuillageSapin" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="18:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Feuillage de Bouleau</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Feuillage de Bouleau</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="feuillageBouleau" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="18:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Feuillage d'Acajou (Jungle)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Feuillage d'Acajou (Jungle)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="feuillageAcajou" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="18:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Éponge</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Éponge</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="eponge" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="19">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Éponge mouillée</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Éponge mouillée</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="epongemouillee" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="19:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre (bloc)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre (bloc)</label>
+					<div class="dymytryIcon icoVerre"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verre" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="20">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Lapis Lazuli</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Lapis Lazuli</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="lapisLazuli" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="21">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bloc de Lapis Lazuli</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bloc de Lapis Lazuli</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="lapisLazuliBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="22">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Distributeur</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Distributeur</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="distributeur" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="23">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Grès</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Grès</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="gres" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="24">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Grès Sculpté</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Grès Sculpté</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="gresSculpte" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="24:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Grès Taillé</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Grès Taillé</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="gresTaille" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="24:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bloc Musical</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bloc Musical</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="blocMusical" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="25">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Piston Collant</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Piston Collant</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="pistonCollant" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="29">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Toile d'Araignée</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Toile d'Araignée</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="toileAraignee" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="30">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Piston</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Piston</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="piston" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="33">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Blanche</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Blanche</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineBlanche" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Orange</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Orange</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineOrange" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Magenta</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Magenta</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineMagenta" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Bleu Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Bleu Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="lainebleuClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Jaune</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Jaune</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineJaune" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:4">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Vert Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Vert Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineVertClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:5">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Rose</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Rose</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineRose" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:6">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Grise</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Grise</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineGrise" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:7">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Gris Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Gris Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineGrisClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:8">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Cyan</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Cyan</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineCyan" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:9">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Violette</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Violette</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineViolette" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:10">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Bleue</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Bleue</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineBleue" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:11">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Marron</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Marron</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineMarron" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:12">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Verte</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Verte</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineVerte" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:13">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Rouge</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Rouge</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineRouge" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:14">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Laine Noire</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Laine Noire</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="laineNoire" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="35:15">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Or (Bloc)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Or (Bloc)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="orBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="41">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Fer (Bloc)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Fer (Bloc)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="ferBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="42">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Double Dalles de Roche</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Double Dalles de Roche</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="doubleDallesRoche" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="43">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Double Dalles de Grès</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Double Dalles de Grès</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="doubleDallesGres" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="43:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Double Dalles de Bois</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Double Dalles de Bois</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="doubleDallesBois" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="43:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Double Dalles de Pierre</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Double Dalles de Pierre</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="doubleDallesPierre" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="43:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Double Dalles de Briques</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Double Dalles de Briques</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="doubleDallesBriques" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="43:4">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Double Dalles de Pierre Taillée</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Double Dalles de Pierre Taillée</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="doubleDallesPierreTaillee" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="43:5">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Double Dalles de Brique du Nether</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Double Dalles de Brique du Nether</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="doubleDallesBriquesNether" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="43:6">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Double Dalles de Quartz</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Double Dalles de Quartz</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="doubleDallesQuartz" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="43:7">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Roche</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Roche</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="DallesRoche" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="44">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Grès</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Grès</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="DallesGres" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="44:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Bois</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Bois</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="DallesBois" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="44:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Pierre</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Pierre</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="DallesPierre" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="44:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Briques</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Briques</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="DallesBriques" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="44:4">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Pierre Taillée</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Pierre Taillée</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="DallesPierreTaillee" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="44:5">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Brique du Nether</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Brique du Nether</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="DallesBriquesNether" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="44:6">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Quartz</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Quartz</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="DallesQuartz" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="44:7">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Briques (Bloc)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Briques (Bloc)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="briqueBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="45">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">TNT</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">TNT</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tnt" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="46">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bibliothèque</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bibliothèque</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="bibliotheque" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="47">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Pierre moussue</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Pierre moussue</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="pierreMoussue" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="48">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Obsidienne</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Obsidienne</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="obsidienne" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="49">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escalier en Bois (Classique)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escalier en Bois (Classique)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="escalierBoisChene" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="53">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Coffre</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Coffre</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="coffre" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="54">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Diamant (Minerai)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Diamant (Minerai)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="diamant" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="56">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Diamant (Bloc)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Diamant (Bloc)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="diamantBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="57">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Établi</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Établi</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="etabli" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="58">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Labourée</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Labourée</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreLabouree" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="60">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Four</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Four</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="four" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="61">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Four allumé</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Four allumé</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="fourAllume" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="62">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escalier en Pierre</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escalier en Pierre</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="escalierPierre" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="67">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Redstone</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Redstone</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="redstone" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="73">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Glace</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Glace</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="glace" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="79">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Neige (Bloc)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Neige (Bloc)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="neige" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="80">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Argile</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Argile</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="argile" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="82">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Jukebox</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Jukebox</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="jukebox" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="84">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Barrière en Bois (Classique)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Barrière en Bois (Classique)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="barriereBoisChene" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="85">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Citrouille</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Citrouille</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="citrouille" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="86">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Netherrack</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Netherrack</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="netherrack" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="87">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Sable des Âmes</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Sable des Âmes</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="sableAme" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="88">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Luminite</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Luminite</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="luminite" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="89">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Portail de Nether</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Portail de Nether</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="portailNether" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="90">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Citrouille Lanterne</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Citrouille Lanterne</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="citrouilleLanterne" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="91">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Blanc</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Blanc</label>
+					<div class="dymytryIcon icoVerreBlanc"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreBlanc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Orange</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Orange</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreOrange" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Magenta</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Magenta</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreMagenta" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Bleu Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Bleu Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreBleuClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Jaune</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Jaune</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreJaune" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:4">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Vert Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Vert Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreVertClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:5">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Rose</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Rose</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreRose" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:6">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Gris</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Gris</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreGris" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:7">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Gris Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Gris Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreGrisClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:8">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Cyan</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Cyan</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreCyan" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:9">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Violet</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Violet</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreViolet" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:10">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Bleu</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Bleu</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreBleu" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:11">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Marron</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Marron</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreMarron" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:12">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Vert</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Vert</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreVert" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:13">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Rouge</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Rouge</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreRouge" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:14">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Verre Noir</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Verre Noir</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="verreNoir" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="95:15">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Trappe en Bois</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Trappe en Bois</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="trappeBois" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="96">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Pierre Taillée</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Pierre Taillée</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="pierreTaillee" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="98">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Pierre Taillée Moussue</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Pierre Taillée Moussue</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="pierreTailleeMoussue" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="98:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Pierre Taillée Craquelée</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Pierre Taillée Craquelée</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="pierreTailleeCraquelee" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="98:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Pierre Sculptée</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Pierre Sculptée</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="pierreSculptee" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="98:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bloc de Champignon Marron</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bloc de Champignon Marron</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="ChampignonMarronBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="99">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bloc de Champignon Rouge</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bloc de Champignon Rouge</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="ChampignonRougeBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="100">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitre" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="102">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Pastèque</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Pastèque</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="pasteque" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="103">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Lianes</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Lianes</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="lianes" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="106">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escalier en Briques</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escalier en Briques</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="escalierBriques" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="108">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escalier en Pierre Taillée</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escalier en Pierre Taillée</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="escalierPierreTaillee" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="109">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Mycélium</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Mycélium</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="mycelium" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="110">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Briques du Nether (Bloc)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Briques du Nether (Bloc)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="briquesNetherBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="112">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Barrière en Briques du Nether</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Barrière en Briques du Nether</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="barriereBriquesNether" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="113">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escaliers en Briques du Nether</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escaliers en Briques du Nether</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="escalierBriquesNether" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="114">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Pierre de l'End</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Pierre de l'End</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="pierreEnd" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="121">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Lampe à Redstone (Éteinte)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Lampe à Redstone (Éteinte)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="lampeRedstoneEteinte" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="123">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Lampe à Redstone (Allumée)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Lampe à Redstone (Allumée)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="lampeRedstoneAllumee" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="124">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Bois de Chêne</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Bois de Chêne</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="dalleBoisChene" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="126">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Bois de Sapin</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Bois de Sapin</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="dalleBoisSapin" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="126:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Bois de Bouleau</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Bois de Bouleau</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="dalleBoisBouleau" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="126:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Bois d'Acajou (Jungle)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Bois d'Acajou (Jungle)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="dalleBoisAcajou" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="126:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Bois d'Acacia (Savane)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Bois d'Acacia (Savane)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="dalleBoisAcacia" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="126:4">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dalle de Bois de Chêne Noir</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dalle de Bois de Chêne Noir</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="dalleBoisCheneNoir" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="126:5">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escalier en Pierres de l'End</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escalier en Pierres de l'End</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="escalierPierresEnd" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="128">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Émeraude (Minerai)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Émeraude (Minerai)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="emeraude" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="129">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Émeraude (Bloc)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Émeraude (Bloc)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="emeraudeBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="133">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escalier en Bois de Sapin</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escalier en Bois de Sapin</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="escalierBoisSapin" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="134">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escalier en Bois de Bouleau</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escalier en Bois de Bouleau</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="escalierBoisBouleau" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="135">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escalier en Bois d'Acacia (Savane)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escalier en Bois d'Acacia (Savane)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="escalierBoisAcacia" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="136">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Muret en Pierres</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Muret en Pierres</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="muretPierres" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="139">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Muret en Pierres Moussues</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Muret en Pierres Moussues</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="muretPierresMoussues" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="139:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Capteur de Lumière</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Capteur de Lumière</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="capteurLumiere" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="151">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Redstone (Bloc)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Redstone (Bloc)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="redstoneBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="152">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Quartz (Minerai)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Quartz (Minerai)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="quartz" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="153">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bloc de Quartz</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bloc de Quartz</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="quartzBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="155">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bloc de Quartz Sculpté</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bloc de Quartz Sculpté</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="quartzBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="155:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Pilier de Quartz</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Pilier de Quartz</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="quartzBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="155:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escaliers en Quartz</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escaliers en Quartz</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="escalierQuartz" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="156">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Dropper</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Dropper</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="dropper" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="158">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Blanche</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Blanche</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteBlanche" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Orange</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Orange</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteOrange" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Magenta</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Magenta</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteMagenta" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Bleu Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Bleu Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuitebleuClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Jaune</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Jaune</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteJaune" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:4">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Vert Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Vert Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteVertClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:5">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Rose</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Rose</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteRose" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:6">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Grise</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Grise</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteGrise" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:7">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Gris Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Gris Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteGrisClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:8">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Cyan</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Cyan</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteCyan" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:9">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Violette</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Violette</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteViolette" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:10">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Bleue</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Bleue</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteBleue" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:11">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Marron</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Marron</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteMarron" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:12">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Verte</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Verte</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteVerte" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:13">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Rouge</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Rouge</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteRouge" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:14">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Terre Cuite Noire</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Terre Cuite Noire</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="terreCuiteNoire" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="159:15">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Blanche</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Blanche</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreBlanche" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Orange</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Orange</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreOrange" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Magenta</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Magenta</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreMagenta" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Bleu Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Bleu Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitrebleuClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Jaune</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Jaune</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreJaune" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:4">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Vert Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Vert Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreVertClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:5">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Rose</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Rose</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreRose" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:6">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Grise</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Grise</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreGrise" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:7">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Gris Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Gris Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreGrisClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:8">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Cyan</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Cyan</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreCyan" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:9">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Violette</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Violette</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreViolette" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:10">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Bleue</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Bleue</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreBleue" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:11">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Marron</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Marron</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreMarron" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:12">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Verte</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Verte</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreVerte" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:13">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Rouge</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Rouge</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreRouge" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:14">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Vitre Noire</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Vitre Noire</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="vitreNoire" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="160:15">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Feuillage d'Acacia (Savane)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Feuillage d'Acacia (Savane)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="feuillageAcacia" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="161">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Feuillage de Chêne Noir</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Feuillage de Chêne Noir</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="feuillageCheneNoir" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="161:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bois d'Acacia (Savane)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bois d'Acacia (Savane)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="boisAcacia" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="162">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bois de Chêne Noir</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bois de Chêne Noir</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="boisCheneNoir" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="162:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escalier en Bois d'Acacia (Savane)</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escalier en Bois d'Acacia (Savane)</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="EscalierBoisAcacia" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="163">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Escalier en Bois de Chêne Noir</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Escalier en Bois de Chêne Noir</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="EscalierBoisCheneNoir" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="164">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bloc de Slime</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bloc de Slime</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="slimeBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="165">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Invisible</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Invisible</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="invisible" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="166">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Prismarine</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Prismarine</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="prismarine" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="168">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Prismarine Taillée</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Prismarine Taillée</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="prismarineTaillee" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="168:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Prismarine Sombre</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Prismarine Sombre</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="prismarineSombre" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="168:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Lanterne Aquatique</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Lanterne Aquatique</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="lanterneAquatique" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="169">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Bloc de Paille</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Bloc de Paille</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="pailleBloc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="170">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Blanc</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Blanc</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisBlanc" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Orange</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Orange</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisOrange" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:1">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Magenta</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Magenta</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisMagenta" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:2">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Bleu Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Bleu Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisbleuClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:3">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Jaune</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Jaune</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisJaune" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:4">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Vert Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Vert Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisVertClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:5">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Rose</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Rose</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisRose" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:6">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Gris</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Gris</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisGris" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:7">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Gris Clair</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Gris Clair</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisGrisClair" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:8">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Cyan</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Cyan</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisCyan" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:9">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Violet</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Violet</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisViolet" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:10">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Bleu</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Bleu</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisBleu" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:11">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Marron</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Marron</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisMarron" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:12">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Vert</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Vert</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisVert" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:13">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Rouge</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Rouge</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisRouge" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:14">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 caillouSorting">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
-					<label class="col-6 col-md-8 text-right">Tapis Noir</label>
-					<div class="col-6 col-md-4">
+					<label class="col-6 col-md-7 text-right">Tapis Noir</label>
+					<div class="dymytryIcon"></div>
+					<div class="col-4 col-md-3 caillouLimit">
 						<input id="tapisNoir" type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="171:15">
 						%
 					</div>
@@ -2104,7 +2334,7 @@
 		<div class="text-center">
 			Mélange de blocs :<br />
 			<input id="blendBlocks" value="Choisissez vos taux" class="col-8 my-2 text-center" />
-			<img id="copyCommand" class="caillouIcon img-fluid" src="copyToClipboardIcon.jpg" alt="copy To Clipboard Icon" title="Copier dans le presse-papier" />
+			<img id="copyCommand" class="caillouIcon img-fluid" src="assets/img/copyToClipboardIcon.jpg" alt="copy To Clipboard Icon" title="Copier dans le presse-papier" />
 		</div>
 		<div class="row">
 			<div id="blendBlocksButton" class="btn btn-success ml-auto">Générer et copier</div>
@@ -2113,6 +2343,6 @@
 		</div>
 	</div>
 	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="WorldEditCommand.js"></script>
+	<script type="text/javascript" src="assets/js/WorldEditCommand.js"></script>
 </body>
 </html>
