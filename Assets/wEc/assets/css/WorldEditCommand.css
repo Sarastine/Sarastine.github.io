@@ -48,9 +48,9 @@ input {
 .icoRoche {
 	background-image: url("../img/ico/icoRoche.gif");
 }
-.icoVerre {
-	background-image: url("../img/ico/icoVerre.gif");
-}
+/*.icoVerre {
+	background-image: url("../img/ico2/glass/icon.png");
+}*/
 .icoVerreBlanc {
 	background-image: url("../img/ico/icoVerreBlanc.gif");
 }
