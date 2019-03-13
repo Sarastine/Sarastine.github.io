@@ -1,7 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr_FR">
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:url" content="https://sarastine.github.io/Assets/wEc/WorldEditCommand.html" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="World Edit : les mélanges de blocs" />
+	<meta property="og:image" content="https://sarastine.github.io/Assets/wEc/assets/img/presentationSite.png" />
+	<meta property="og:description" content="Pour gagner du temps avec World Edit lorsqu'on veut faire un mélange complexe de divers blocs" />
+	<meta property="og:site_name" content="World Edit Commandes" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="article:author" content="Caillou" />
 	<title>Commande auto WorldEdit</title>
 	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/WorldEditCommand.css" />
@@ -22,7 +31,7 @@
 		</div>
 		<div id="caillouRace" class="btn btn-secondary">Course Caillou</div>
 
-		<div class="row">
+		<div class="row caillouBlocDiv">
 			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Air (Vide)</label>
@@ -113,7 +122,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Terre</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/dirt/icon.png">
@@ -375,7 +384,7 @@
 			</div>
 			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-7 text-right">Charbon</label>
+					<label class="col-6 col-md-7 text-right">Charbon (Minerai)</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/coal_ore/icon.png">
 					<div class="col-4 col-md-3 caillouLimit">
 						<input type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="16">
@@ -505,7 +514,7 @@
 			</div>
 			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-7 text-right">Lapis Lazuli</label>
+					<label class="col-6 col-md-7 text-right">Lapis Lazuli (Minerai)</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/lapis_lazuli_ore/icon.png">
 					<div class="col-4 col-md-3 caillouLimit">
 						<input type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="21">
@@ -593,7 +602,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Arbuste Mort (Donne Graines)</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/dead_bush/icon.png">
@@ -603,7 +612,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Herbes Hautes</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/grass/icon.png">
@@ -613,7 +622,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Fougère</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/fern/icon.png">
@@ -623,7 +632,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Arbuste Mort (Donne Bâtons)</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/dead_bush/icon.png">
@@ -1153,7 +1162,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Torche</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/torch/icon.png">
@@ -1163,7 +1172,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Générateur de Monstres</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/monster_spawner/icon.png">
@@ -1193,10 +1202,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Fil de Redstone</label>
-					<img class="img-fluid dymytryIcon" src="assets/img/ico2/ROUGEIMMONDE/icon.png">
+					<img class="img-fluid dymytryIcon" src="assets/img/ico3/Câble_de_redstone.png">
 					<div class="col-4 col-md-3 caillouLimit">
 						<input type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="55">
 						%
@@ -1233,10 +1242,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Blé (Culture)</label>
-					<img class="img-fluid dymytryIcon" src="assets/img/ico2/ROUGEIMMONDE/icon.png">
+					<img class="img-fluid dymytryIcon" src="assets/img/ico3/Blé.gif">
 					<div class="col-4 col-md-3 caillouLimit">
 						<input type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="59">
 						%
@@ -1273,7 +1282,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Pancarte (sur Sol)</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/sign/icon.png">
@@ -1293,7 +1302,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Échelle</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/ladder/icon.png">
@@ -1323,17 +1332,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Pancarte (sur Mur)</label>
-					<img class="img-fluid dymytryIcon" src="assets/img/ico2/ROUGEIMMONDE/icon.png">
+					<img class="img-fluid dymytryIcon" src="assets/img/ico3/Pancarte_en_bois_de_chêne_murale.png">
 					<div class="col-4 col-md-3 caillouLimit">
 						<input type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="68">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Levier</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/lever/icon.png">
@@ -1343,7 +1352,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Plaque de Pression en Pierre</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/pressure_plate_stone/icon.png">
@@ -1353,7 +1362,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Porte en Fer</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/iron_door/icon.png">
@@ -1363,7 +1372,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Plaque de Pression en Bois</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/pressure_plate_wood/icon.png">
@@ -1375,7 +1384,7 @@
 			</div>
 			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
-					<label class="col-6 col-md-7 text-right">Redstone</label>
+					<label class="col-6 col-md-7 text-right">Redstone (Minerai)</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/redstone_ore/icon.png">
 					<div class="col-4 col-md-3 caillouLimit">
 						<input type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="73">
@@ -1386,24 +1395,24 @@
 			<div class="col-md-4 caillouSorting caillouRace">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Redstone Allumée</label>
-					<img class="img-fluid dymytryIcon" src="assets/img/ico2/ROUGEIMMONDE/icon.png">
+					<img class="img-fluid dymytryIcon" src="assets/img/ico3/Redstone_(minerai_lumineux).png">
 					<div class="col-4 col-md-3 caillouLimit">
 						<input type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="74">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Torche de Redstone Éteinte</label>
-					<img class="img-fluid dymytryIcon" src="assets/img/ico2/ROUGEIMMONDE/icon.png">
+					<img class="img-fluid dymytryIcon" src="assets/img/ico3/Torche_de_redstone.png">
 					<div class="col-4 col-md-3 caillouLimit">
 						<input type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="75">
 						%
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Torche de Redstone Allumée</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/redstone_torch/icon.png">
@@ -1413,7 +1422,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Bouton en Pierre</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/button_stone/icon.png">
@@ -1423,7 +1432,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Neige (Fine Couche)</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/snow_carpet/icon.png">
@@ -1453,7 +1462,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Cactus</label>
 					<img class="img-fluid dymytryIcon" src="assets/img/ico2/cactus/icon.png">
@@ -1473,10 +1482,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 caillouSorting caillouRace">
+			<div class="col-md-4 caillouSorting">
 				<div class="row">
 					<label class="col-6 col-md-7 text-right">Canne à Sucre</label>
-					<img class="img-fluid dymytryIcon" src="assets/img/ico2/ROUGEIMMONDE/icon.png">
+					<img class="img-fluid dymytryIcon" src="assets/img/ico3/Canne_à_sucre.png">
 					<div class="col-4 col-md-3 caillouLimit">
 						<input type="number" min="0" max="100" placeholder="0" class="totalPercent" name="" data-idBloc="83">
 						%
@@ -3886,20 +3895,20 @@ Blé cultivé (id 59)
 			
 
 		</div>
-		<div class="row">
-			<div class="mx-auto ratesTotal">
-				<span id="totalPercent">0</span>%
+		<div class="fixed-bottom">
+			<div class="row">
+				<div class="mx-auto ratesTotal">
+					<span id="totalPercent">0</span>%
+				</div>
 			</div>
-		</div>
-		<div class="text-center">
-			Mélange de blocs :<br />
-			<input id="blendBlocks" value="Choisissez vos taux" class="col-8 my-2 text-center" />
-			<img id="copyCommand" class="caillouIcon img-fluid" src="assets/img/copyToClipboardIcon.jpg" alt="copy To Clipboard Icon" title="Copier dans le presse-papier" />
-		</div>
-		<div class="row">
-			<div id="blendBlocksButton" class="btn btn-success ml-auto">Générer et copier</div>
-			<div id="reset" class="btn btn-light ml-3 mr-auto">Reset</div>
-			
+			<div class="text-center">
+				<input id="blendBlocks" placeholder="Choisissez vos taux pour atteindre 100%" class="col-8 my-2 text-center" />
+				<img id="copyCommand" class="caillouIcon img-fluid" src="assets/img/copyToClipboardIcon.jpg" alt="copy To Clipboard Icon" title="Copier dans le presse-papier" />
+			</div>
+			<div class="row">
+				<div id="blendBlocksButton" class="btn btn-success ml-auto">Générer et copier</div>
+				<div id="reset" class="btn btn-light ml-3 mr-auto">Reset</div>
+			</div>
 		</div>
 	</div>
 	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>

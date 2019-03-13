@@ -45,14 +45,14 @@ input {
 	height: 32px;
 }
 
-.icoRoche {
-	background-image: url("../img/ico/icoRoche.gif");
+.fixed-bottom {
+	background-color: #2C2C2C;
+	border-top: 2px groove #CCC;
+	padding-bottom: 5px;
 }
-/*.icoVerre {
-	background-image: url("../img/ico2/glass/icon.png");
-}*/
-.icoVerreBlanc {
-	background-image: url("../img/ico/icoVerreBlanc.gif");
+
+.caillouBlocDiv {
+	margin-bottom: 150px;
 }
 
 /*caillouSorting : classe de tri*/
