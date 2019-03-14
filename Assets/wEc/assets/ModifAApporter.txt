@@ -1,0 +1,17 @@
+Incorrect :
+Pissenlit 37
+
+Bugué :
+Porte 64 (donne demi-porte du bas)
+Porte bois variés 193 à 196
+Bloc de champignon 99 et 100 (ne génère des blocs qu'avec des faces identiques (type intérieur rouge / dessous tête marron)
+Grandes Fleurs 175  à 175:4
+
+Copie :
+Feuillage Chêne Noir 161 et Acacia 161:1 sont identiques
+
+//replace mélangeBlocÀRemplacer mélangeBlocRemplaçant
+
+Manque :
+Nénuphar 111
+Balise 138
