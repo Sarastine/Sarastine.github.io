@@ -55,4 +55,8 @@ input {
 	margin-bottom: 150px;
 }
 
+.caillouUnderline {
+    text-decoration: underline;
+}
+
 /*caillouSorting : classe de tri*/
