@@ -11,12 +11,9 @@ __Prévenu
 
 Copie :
 Feuillage Chêne Noir 161 et Acacia 161:1 sont identiques
+Pousse de Citrouille 104 et de melon 105 seront identiques
 
 //replace mélangeBlocÀRemplacer mélangeBlocRemplaçant
 
 Manque :
-Rail Redstone 27
-Rail détecteur 28
-Tête de piston 34 (sera légèrement bugué)
-Nénuphar 111
-Balise 138
+__Réglé
