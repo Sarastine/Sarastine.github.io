@@ -59,4 +59,8 @@ input {
     text-decoration: underline;
 }
 
+.caillouCheckbox {
+	margin-left: 15px;
+}
+
 /*caillouSorting : classe de tri*/

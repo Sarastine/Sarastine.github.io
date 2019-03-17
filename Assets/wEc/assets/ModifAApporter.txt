@@ -2,11 +2,6 @@ Incorrect :
 __Réglé
 
 Bugué :
-Lit 26 (donne demi-lit, partie sans oreiller) 
-Porte 64 (donne demi-porte du bas)
-Porte bois variés 193 à 196
-Bloc de champignon 99 et 100 (ne génère des blocs qu'avec des faces identiques (type intérieur rouge / dessous tête marron)
-Grandes Fleurs 175  à 175:4
 __Prévenu
 
 Copie :
