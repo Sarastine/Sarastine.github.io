@@ -1,6 +1,7 @@
 body {
 	background-color: #333;
 	color: #CCC;
+	background-image: url(../img/background.png); 
 }
 
 h1, h2 {
@@ -49,6 +50,7 @@ input {
 	background-color: #2C2C2C;
 	border-top: 2px groove #CCC;
 	padding-bottom: 5px;
+	background-image: url(../img/backgroundFooter.png);
 }
 
 .caillouBlocDiv {

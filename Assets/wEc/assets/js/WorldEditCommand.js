@@ -1,4 +1,5 @@
 $(function () {
+	//Initialisation de la page
 	var caillouRaceBool = false;
 	var caillouReplaceBool = false;
 	var command = "";
@@ -10,6 +11,7 @@ $(function () {
 		$('#caillouMessageBox').show();
 		$('#ratesTotal').hide();
 	}
+	
 	//Fonction Mise à jour du taux total
 	function ratesTotalSum() {
 		var ratesTotal = 0;
