@@ -1,5 +1,0 @@
-schema: 1
-
-description: Bedrock makes up the bottom most layers of the Minecraft world.  It is the only block which absolutely cannot be destroyed by normal means (e.g., pickaxe, TNT, etc.).
-
-
