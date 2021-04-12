@@ -39,6 +39,9 @@ h1 {
 .caillouList {
 	padding-left: 0px; 
 }
+.caillouPuce {
+	margin-bottom: 10px;
+}
 .progressBarFont {
 	font-family: 'courier new';
 	font-size: 1.8rem;
